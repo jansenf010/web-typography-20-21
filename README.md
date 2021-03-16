@@ -1,83 +1,84 @@
-# Web Typography, 2020/2021
+#Vragen voor Darice 
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
 
-Dat kan visueel sterker. 
+##Ben je sinds je geboorte doof of is dat later pas ontstaan?  
 
-En dat gaan jullie doen.
+Nee, gehorend geboren, basisschool slechthorend geworden. Op 26ste doof geworden. 
+ 
 
-## Leerdoelen
+ 
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+##Hoe is het voor jou om in het dagelijks leven een film te kijken?  
 
-## Oplevering
+Ik ben er ondertussen aan gewend, zolang er ondertiteling aanwezig is. Deze ondertiteling is niet altijd goed, geeft niet aan wat voor muziek er bijv afspeelt, druk verkeerd etc. 
+Alle achtergrondgeluiden worden willekeurig erin gedaan. Dit maakt de ervaring niet volledig. 
+ 
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+##Waar loop je tegenaan zodra je een film aan het kijken bent? 
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+Muziek wordt niet aangegeven wat voor soort muziek, alleen dat er muziek speelt, gevoel 	niet overgekomen. 
+ 
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+##Welke gevoelens zijn lastig visueel over te dragen in een film volgens jou? 
 
-## Typografische restricties
+Ik denk dat de muziek afspeelt, zoals bij horror een spannend muziekje of een romantisch muziekje wat je niet kan horen. 
+ 
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+##Welke kleur associeer je met bang zijn?  
 
-### Optie 1: Systeemfont
+Donkere kleuren, zwart, donkerrood. 
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+##Heb je zelf een lettertype ingesteld op je pc die je fijn vindt om te lezen? 
 
-### Optie 2: Brenner
+Ja voor captions sans serif. Zolang als het duidelijk is. Niet te veel op elkaar gedrukt. 
+ 
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
+##Welke kleur associeer je met spanning? 
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
+Herfst kleuren, bruin, onweerachtige kleuren. 
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+##Welke kleur associeer je met stilte? 
 
-## Het fragment
+Ik denk wit. 
+ 
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+##Zijn er speciale effecten die je tof vindt die nu worden gebruikt? 
 
-### De captions
+Die meteen kleuren, maar beschrijvingen, bijvoorbeeld als violen muziek gebruiken, dat laten zien, beschrijving van geluid. Liever omschrijving dan met kleur. 
 
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
+##Zijn er ook effecten die je irritant vindt? 
 
-Met JavaScript worden er een paar dingen extra gedaan: 
+Ja, als er te veel flashes zijn, dat je weg moet kijken. Heb ik een keer lichte epilepsie van gehad. 
 
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
+##Hoe voel jij je over lettertypes die variëren in een zin? 
 
-### Tijdens het afspelen
+Is prima, bvb kan dik gebruiken voor schreeuwen, schuin voor achtergrond gesprek die buiten het beeld afspeelt, monospace, associeer ik altijd met computer of robot stem.  
 
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
+##Moet er zoveel mogelijk contrast gemaakt worden qua leesbaarheid? 
 
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
+Leesbaarheid is geen probleem, rekening houden met toegankelijkheid van kleuren. 
+In de avond switchen van gele tekst naar zwart. 
+ 
 
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
+##Als er elementen afspelen buiten het scherm om de sfeer van de film te weergeven, vind je dit dan afleidend van het beeld, of vind je dit juist een leuke toevoeging? 
 
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
+##Als het teveel gedaan is, kan leuk zijn, maar niet teveel afleiden van de film en de ondertiteling.  
 
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
+##Zijn bepaalde scenes moeilijk te volgen, zo ja, welke in de film vond je erg lastig?  
 
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
+Veel achtergrond geluid want vaak worden achtergrond geluiden niet goed omschreven, ook kleine specifieke geluiden worden vaak vergeten. Specifieke kleine geluiden worden vaak gegeten,  
+Zoals wanneer hij word gebrainwasht in de kamer zijn er specifieke geluiden of wanneer hij aankomt met de auto op het station. 
 
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
+##Ben je erg vermoeid na het kijken van een film, zo ja hoe komt dat? 
 
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
+Iemand die doof is kan compensief kijken naar een film, maar kan vermoeiend zijn als je met mensen bent. 
+ 
+##Altijd voorstander voor superduidelijk. 
+Hou het subtiel, balans vinden tussen de film en je creativiteit. 
+Brenner mono voor robot stem bijv 
 
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+ Feedback 8 maart:
+ 
+ Feedback 12 maart:
