@@ -27,6 +27,8 @@ Feel free to adjust the defaults to your needs.
     justify-content: center;
 }
 
+/* Extra tekst staat in een grid gecentreerd onder de video */
+
 #ondertekst {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(19em, 1fr));
@@ -37,11 +39,9 @@ Feel free to adjust the defaults to your needs.
     grid-template-rows: 100% 50% 50%;
 }
 
+/* Hiermee zet ik de video in het midden en iets naar onder
+ook verander ik de grootte van de video*/
 
-#fluister{
-    color: yellow;
-    opacity: 0;
-}
 
 #video-placeholder{
 	margin-left: auto;
@@ -53,53 +53,88 @@ Feel free to adjust the defaults to your needs.
 }
 
 
-
+/* Hiermee maak ik de achtergrond van de pagina zwart */
 
 body{
     background-color: black;
     
 }
 
+/* Dit is de stem van de "computer". Deze heb ik hier gestyled. */
+
 .comp {
 	font-style: italic;
     font-family: monospace;
     font-size: 20px;
-    color: darkseagreen;
+    color: grey;
     padding color: azure;
 }
+
+/* Dit is ook de stem van de "computer", maar dit zijn de woorden
+die Ryan moet herhalen, deze heb ik anders styled om ze te laten
+opvallen*/
 
 .comp2 {
 	font-style: italic;
     font-family: monospace;
     font-size: 30px;
-    color: darkseagreen;
+    color: grey;
 
 }
+
+/* Dit is de stem van Ryan Gosling, die ik hier style.*/
 
 .voice2{
     font-style: normal;
     font-family: sans-serif;
     font-size: 20px;
-    color: grey;
+    color: yellow;
 }
+
+/* De man die "Fuck off, skinjob" zegt, style ik hier apart,
+omdat de manier waarop het gezegd wordt anders is dan wordt
+gedacht door taalgebruik*/
 
 .aggressief{
     font-style: normal;
-    font-family: cursive;
     font-size: 20px;
     color:azure;
 
    
 }
 
-
+/* Hierin omschrijf ik de pieptoon die steeds hoger wordt,
+zodat het duidelijk is naast de illustraties*/
 
 #beep{
-    color: red;
+    margin-top: 8em;
+    color: purple;
     opacity: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
+/* Hier style ik het oranje alarm wat over de video heen valt*/
+
+.alarm1{
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: coral;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    right: 50%;
+    transition: 2s;
+    text-align: center;
+}
+
+/* Omdat Ryan 3 keer "Within cells interlinked" moet zeggen, heb ik
+deze apart gestyled, om ook echt duidelijk te laten zien dat hij
+het 3 keer zegt.*/
 
 .cells1{
     font-style: normal;
@@ -143,30 +178,37 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is red */
+/* Helemaal aan het begin van de video speelt al geluid af,
+dit geluid druk ik uit door de achtergrond in een tijd van 7sec
+donkerblauw te maken*/
 
+.sound0{
+    background-color: darkblue;
+    transition-duration: 7s;
+}
 
+/* Hier maak ik de achtergrond weer zwart */
 
+.sound1{
+    background-color: black;
+}
+
+/* Op sound 1 krijgt de video een gele schaduw  */
 .sound1 #video-placeholder{
     box-shadow: 0 0 1em 1em yellow;
     transition-duration: 1s;
 }
 
+
+/*Op sound2 verdwijnt deze schaduw weer */
 .sound2 #video-placeholder{
     box-shadow: none;
 }
 
 
-.sound1 .alarm{
-    opacity: 1;
-}
-
-.sound2 .alarm{
-    opacity: 0;
-}
-
-/* alarm op elk alarm laten zien */
-
+/* Hier laat ik een kleur over het scherm vallen om te laten 
+zien dat dit een ander geluid is. Deze schijnt door door de
+opacity en wordt ook groter door de scale.*/
 
 .sound3 .alarm1{
     opacity: 0.4;
@@ -174,75 +216,99 @@ Sounds.
     transform: scale(30);
 }
 
+/* Hier verdwijnt de oranje kleur op de voorgrond */
+
 .sound4 .alarm1{
     display: none;
 }
 
+
+/* De video krijgt een rode schaduw en deze transitie duurt 1 sec */
 
 .sound7 #video-placeholder{
     box-shadow: 0 0 1em 1em red;
     transition-duration: 1s;
 }
 
+
+/* De schaduw gaat weer weg */
 .sound8 #video-placeholder{
     box-shadow: none;
 }
 
-.sound9 .fluister{
-    opacity: 1;
-}
-
-.sound14 .fluister{
-    opacity: 0;
-}
+/* De video krijgt een rode schaduw met 1 sec transitie */
 
 .sound11 #video-placeholder{
     box-shadow: 0 0 1em 1em red;
     transition-duration: 1s;
 }
 
+/* De schaduw verdwijnt weer */
+
 .sound12 #video-placeholder{
     box-shadow: none;
 }
 
 
-
+/* De video krijgt een rode schaduw met 1 sec transitie*/
 
 .sound15 #video-placeholder{
     box-shadow: 0 0 1em 1em red;
     transition-duration: 1s;
 }
 
+/* Hier verdik ik de schaduw met 3em, de rode schaduw is ook nog
+te zien.*/
 
 .sound16 #video-placeholder{
     box-shadow: 0 0 3em 3em orange;
     transition-duration: 1s;
 }
 
+/* Hier verdwijnen beide schaduwen */
+
 .sound17 #video-placeholder{
     box-shadow: none;
 }
+
+
+/* Hier krijgt de video een achtergrond, deze transitie duurt 
+41 sec */
 
 .sound18{
     background-color: ghostwhite;
     transition-duration: 41s;
 }
 
+/* Terwijl de achtergrond langzaam een andere kleur krijgt, 
+veranderd de grootte van de video en krijgt die een nieuwe dikke
+schaduw. Deze transitie duurt 33 sec*/
+
 .sound18 #video-placeholder{
-    width: 600px;
-    height: 380px;
-    box-shadow: 0 0 10em 10em greenyellow;
+    width: 500px;
+    height: 280px;
+    box-shadow: 0 0 10em 10em yellow;
     transition-duration: 41s;
 }
 
+
+
+/* Hier verdwijnen beide schaduwen */
 .sound20 #video-placeholder{
     box-shadow: none;
 }
+
+/* Hier maak ik de achtergrond weer zwart, deze transitie duurt 
+0sec en gebeurd dus heel snel*/
 
 .sound20{
     background-color: black;
     transition-duration: 0s;
 }
+
+/* Ook zet ik de video weer terug op zn plek en verander
+ik de grootte van de video weer naar hoe die eerst was, ook dit
+duurt 0 sec. */
 
 .sound20 #video-placeholder{
     margin-left: auto;
@@ -254,50 +320,132 @@ Sounds.
     transition-duration: 0s;
 }
 
+
+/* Hier laat ik tekst verschijnen om te laten zien dat er een hoge
+piep te horen is.*/
 .sound18 #beep{
     opacity: 1;
 }
 
+
+/* De tekst met de hoge piep laat ik hier weer verdwijnen */
 .sound20 #beep{
     opacity: 0;
 }
 
+/*Vanaf hier komt er een reeks aan schaduwen. Deze verander ik 
+veel, omdat de muziek veel veranderd. Ik heb geprobeerd de spanning
+uit de scene uit te drukken in kleur en ditkes van de schaduw. Ook 
+de toonhoogte van de muziek leid tot een kleine of grote schaduw*/
+
+
+/* De video krijgt hier een kleine donkerblauwe schaduw */
 
 .sound21 #video-placeholder{
-    box-shadow: 0 0 1em 1em red;
+    box-shadow: 0 0 1em 1em darkblue;
     transition-duration: 1s;
 }
 
-
+/* Hier verander ik de kleur van de schaduw en de dikte ervan
+om de toon van de muziek aan te geven
+*/
 .sound22 #video-placeholder{
-    box-shadow: 0 0 3em 3em orange;
+    box-shadow: 0 0 3em 3em grey;
     transition-duration: 1s;
 }
+
+/* De schaduw wordt weer klein en krijgt een donkergroene kleur */
+
+.sound23 #video-placeholder{
+    box-shadow: 0 0 1em 1em darkgreen;
+    transition-duration: 1s;
+}
+
+/* De schaduw wordt groter en krijgt een olijfgroene kleur */
 
 .sound24 #video-placeholder{
+    box-shadow: 0 0 3em 3em darkblue;
+    transition-duration: 1s;
+}
+
+/* De schaduw wordt klein en krijgt een zeegroene kleur */
+
+.sound25 #video-placeholder{
+    box-shadow: 0 0 1em 1em brown;
+    transition-duration: 1s;
+}
+
+/* De schaduw krijgt een grijze kleur en wordt weer groot gemaakt */
+
+.sound26 #video-placeholder{
+    box-shadow: 0 0 3em 3em white;
+    transition-duration: 1s;
+}
+
+/* Hier maak ik de schaduw donkergrijs, om een duidelijke sfeer
+van spanning te brengen.*/
+
+.sound27 #video-placeholder{
+    box-shadow: 0 0 1em 1em darkslategray;
+    transition-duration: 1s;
+}
+
+/* Hier verander ik de kleur en dikte van de schaduw opnieuw, de schaduw wordt groter*/
+
+.sound28 #video-placeholder{
+    box-shadow: 0 0 3em 3em darkgreen;
+    transition-duration: 1s;
+}
+
+/* Hier maak ik de schaduw voor de laatste keer klein en 
+donkergrijs*/
+
+.sound29 #video-placeholder{
+    box-shadow: 0 0 1em 1em brown;
+    transition-duration: 1s;
+}
+
+/* Hier maak ik de schaduw nog een keer groot en deze keer rood,
+omdat de spanning heel hoog zit in de video*/
+
+.sound30 #video-placeholder{
+    box-shadow: 0 0 3em 3em red;
+    transition-duration: 1s;
+}
+
+/* Om de spanning te laten zien en het gevoel van Ryan uit te
+drukken maak ik hier het scherm kleiner. Deze transitie duurt 3
+sec.*/
+
+.sound31 #video-placeholder{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    margin-top: 10%;
+    width: 560px;
+    height: 380px;
+    transition-duration: 3s;
     box-shadow: none;
 }
 
-/*sound 10 tot 15 is fluisteren*/
+/* Hier verander ik de video weer terug naar de grootte zoals
+die in het begin is. Deze transitie duurt 0sec.*/
 
-/* vanaf sound17 piep die steeds hoger wordt*/
-
-
-
-
-.alarm1{
-    opacity: 0;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: coral;
-    left: 50%;
-    position: absolute;
-    z-index: 2;
-    right: 50%;
-    transition: 2s;
-    text-align: center;
+.sound32 #video-placeholder{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    margin-top: 10%;
+    width: 860px;
+    height: 480px;
+    transition-duration: 0s;
 }
+
+
+
+
+
+
 
 
 

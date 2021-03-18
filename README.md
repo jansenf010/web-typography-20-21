@@ -79,6 +79,95 @@ Iemand die doof is kan compensief kijken naar een film, maar kan vermoeiend zijn
 Hou het subtiel, balans vinden tussen de film en je creativiteit. 
 Brenner mono voor robot stem bijv 
 
- Feedback 8 maart:
+ ONTWERPKEUZES
+ Ik heb ervoor gekozen niet het Brenner font te gebruiken. Dit heb 
+ ik gedaan, omdat Darice zelf een font op haar computer heeft
+ ingesteld, en zij dit sowieso een fijn font vind. Een doof iemand
+ die zijn font specifiek heeft ingesteld wil dan naar mijn idee ook
+ niet dat er voor haar een ander font wordt gekozen. Ik heb wel gebruik gemaatk van stylen binnen het systeem-font, zoals monospace.
  
- Feedback 12 maart:
+ Om verschillende soorten alarmen uit te drukken heb ik in het begin
+ verschillende alarmen ook verschillende kleuren gegeven. Zo heb ik
+ gebruik gemaakt van rode en gele box-shadows en een keer een oranje
+ kleur over het scherm laten komen. Door iets verschillende kleuren
+ te geven is het voor Darice ook duidelijk dat deze geluiden anders
+ zijn. 
+ 
+ Voor de stem van de "computer" heb ik gekozen om monospace te 
+ gebruiken. Deze zit er digitaal uit, en daarmee is het voor Darice
+ ook duidelijk dat er een computer achtige stem klinkt. Ook heb ik 
+ deze stem een grijze kleur gegeven, om te laten zien dat er weinig
+ gevoel in de stem zit. 
+ 
+ De stem van Ryan Gosling heb ik geel gemaakt en zo normaal mogelijk 
+ gehouden omdat dit een menselijke stem is. Ik heb de stem geel
+ gemaakt voor veel contrast met de achtergrond. Ook is zijn stem zo
+ met kleur in andere scenen goed te herkennen. 
+ De man die zegt "fuck off, skinjob", zegt dit heel zacht, maar duidelijk. Daarom heb ik voor hem de kleur wit gekozen. Darice zei
+ zelf ook dat zij wit associeerd met stilte. Omdat hij het zo zacht
+ zegt heb ik deze tekst wit gemaakt. 
+ 
+ Aan Darice heb ik het één en ander gevraagd. Onder andere 
+ associeerde zij donkere kleuren met bang zijn. Dit is één van de 
+ reden dat ik voor donkere kleuren heb gekozen in het laatste fragment met alle schaduwen. Om spanning goed uit te kunnen drukken
+ en ook de tonen van de spelende muziek heb ik voor verschillende
+ groottes en kleuren gekozen van schaduwen die elkaar afwisselen 
+ op een bepaalde timing.
+ 
+ Ook is het voor Darice belangrijk dat de sfeer juist wordt
+ aangegeven. Vaak kan zij niet zien of er een spannende of angstige
+ sfeer hangt. Hierbij heb ik geprobeerd haar kleurassociaties toe te
+ passen. 
+ 
+ 
+ Feedback 9 maart:
+ 
+ Geluiden beter timen. Contrast kan beter en de tekst staat ver van 
+ de video af, waardoor je erg moet schakelen tussen lezen en kijken.
+ 
+ Als hij spin zegt, kan Darice dat ook lezen, dus het is geen
+ geluid wat je uitwerkt. Dit is overbodig. Het is de bedoeling om 
+ de geluiden uit te werken. 
+ 
+ -> na de feedback ben ik deze punten gaan verwerken en heb ik 
+ extra gelet op wat ik nou precies uitwerk en wat voor Darice wel
+ en niet te begrijpen is. Ook heb ik gekeken naar de tekst, deze 
+ staat nu gecentreerd onder de video. Dit zorgt ervoor dat de tekst
+ en de video samen makkeijker te volgen zijn. 
+ 
+ 
+ 
+ Feedback 12 maart (Darice):
+ tot nu toe leid er niet veel echt af van de video. Wel kwam ze 
+ er achter dat de "Fuck off, skinjob" niet geschreeuwd maar bijna
+ gefluisterd wordt. Dit moet ik beter uitwerken, hij was nu aggressiever dan daadwerkelijk werd gezegd. 
+ 
+ -> Deze feedback heb ik verwerkt in mijn uiteindelijke video. Het
+ gaat erom dat Darice het gevoel krijgt dat ze de spanning van de
+ video meekrijgt. 
+ 
+ 
+ 
+ 
+ 
+ Feedback 16 maart:
+ Hier kreeg ik als laatste feedback dat de piep goed irritant is,
+ maar de laatste 10 seconden het zelfde lijken. Hierbij heb ik 
+ geprobeerd om hem echt steeds irritanter te laten worden, zodat ook
+ op het laatst nog de irritatie van de pieptoon te zien is. 
+ Ook mocht het contrast van mn letters nog beter. Hier heb ik voor 
+ gezorgd door alle tekst een zwarte achtergrond te geven, zodat deze
+ ten alle tijd goed te lezen is. Er moest ook duidelijk worden
+ aangegeven voor Darice dat er in een scene 3 keer achter elkaar
+ "within cells interlinked" wordt gezegd. Dit was nu nog onduidelijk.
+ -> deze feedback heb ik verwerkt door de transitie een andere kleur
+ te geven en hem langer te laten duren. Daarna wordt die op een 
+ andere sound terug veranderd naar zwart beeld en de normale grote. 
+ De tekst van  "within cells interlinked" heb ik 3 keer apart gestyled, waardoor hopelijk voor Darice duidelijker is dat het
+ 3 keer apart wordt gezegd. 
+ 
+ 
+ 
+ 
+ 
+ 
